@@ -1615,7 +1615,31 @@
         welcomeMessage.textContent = config.welcome_text || defaultConfig.welcome_text;
       }
      
-      if (nextButtonText && currentPage < 15) {
+      if <head>
+    <meta charset="UTF-8">
+    <title>Pagination JavaScript 15 Halaman</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Daftar Item</h2>
+        
+        <p>Anda berada di: <span id="current-page-display"></span></p>
+
+        <div id="content-display">
+            </div>
+
+        <div class="pagination-controls">
+            <button id="prev-btn" class="page-btn" disabled>&laquo; Sebelumnya</button>
+            <span id="page-numbers"></span>
+            <button id="next-btn" class="page-btn">Berikutnya &raquo;</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+    (nextButtonText && currentPage < 15) {
         nextButtonText.textContent = (config.button_text || defaultConfig.button_text) + ' →';
       }
     }
