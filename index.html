@@ -1614,8 +1614,8 @@
       if (welcomeMessage) {
         welcomeMessage.textContent = config.welcome_text || defaultConfig.welcome_text;
       }
-      
-      if (nextButtonText && currentPage < totalPages) {
+     
+      if (nextButtonText && currentPage < 15) {
         nextButtonText.textContent = (config.button_text || defaultConfig.button_text) + ' →';
       }
     }
